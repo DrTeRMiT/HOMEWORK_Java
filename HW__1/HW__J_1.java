@@ -1,7 +1,7 @@
-package HW_1;
+package HW__1;
 import java.util.Scanner;
 
-public class HW_J_1 {
+public class HW__J_1 {
 
     public static void main(String[] args) {
 
