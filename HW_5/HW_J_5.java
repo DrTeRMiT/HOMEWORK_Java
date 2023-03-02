@@ -107,13 +107,13 @@ public class HW_J_5 {
 
                 if (spawnX > 0 && spawnY > 0 && spawnX < countElements(path) && spawnY < countLines(path)){
                     if (map[spawnY][spawnX] == -1) {
-                        System.out.println("Ошибка! Координата спавна находится в стене");
+                        System.out.println("Ошибка! Координата находится в стене");
                         spawnX = 0;
                         spawnY = 0;
                     }
                 }
                 else {
-                        System.out.println("Ошибка! Координата спавна находится вне карты");
+                        System.out.println("Ошибка! Координата находится за пределами карты");
                         spawnX = 0;
                         spawnY = 0;
                     }
